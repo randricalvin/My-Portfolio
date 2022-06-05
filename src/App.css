@@ -1,5 +1,7 @@
 @tailwind base;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&family=Red+Hat+Display:wght@700&display=swap');
+
 
 .App {
   text-align: center;
@@ -39,3 +41,64 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 8rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #5C64CF;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: red;
+  height: 10rem;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #5C64CF;
+  font-size: 3rem;
+  width: 50vw;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #F5F4F2;
+  padding-top: 2rem;
+
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+
