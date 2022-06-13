@@ -5,12 +5,16 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
+import CustomCursor from "./components/CustomCursor";
+
+import "./App.css";
 
 function App() {
   return (
   // create a routes to the different pages
   <div className="">
   <Router>
+  <CustomCursor />
   <NavBar />
   <Routes>
     <Route path="/" element={<Home />} />

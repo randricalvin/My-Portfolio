@@ -8,7 +8,8 @@ module.exports = {
       primaryWhite: "#F5F4F2"
     },
     fontFamily: {
-      sans: ["Lexend Deca", "sans-serif"]
+      sans: ["Lexend Deca", "sans-serif"],
+      serif: ["Red Hat Display", "serif"]
     },
   },
   plugins: [],

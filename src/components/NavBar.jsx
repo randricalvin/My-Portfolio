@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom'
 import "../App.css"
 
@@ -10,7 +9,7 @@ const NavBar = () => {
   return (
     <>
 {/* adding a burger button */}
-<div className="border-b border-gray-400 py-8">
+<div className="shadow-md">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden justify-end mr-5">
           <div
@@ -58,7 +57,7 @@ const NavBar = () => {
             </div>
           </div>
         </section>
-        <section className="DESKTOP-MENU flex lg:flex-col lg:justify-center lg:items-center lg:flex-1">
+        <section className="DESKTOP-MENU navbar flex lg:flex-col lg:justify-center lg:items-center lg:flex-1">
         <ul className=" DESKTOP-MENU hidden space-x-8 lg:flex">
           {/* center menu navigation */}
           <li>

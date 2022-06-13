@@ -1,8 +1,13 @@
 import React from 'react'
+import ProjectsTitle from '../components/ProjectsTitle'
+import ProjectsComponents from '../components/ProjectsComponents'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='page-project'>
+      <ProjectsTitle />
+      <ProjectsComponents />
+    </div>
   )
 }
 
