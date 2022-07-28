@@ -207,7 +207,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .page-project {
-  height: 90vh;
+  height: 100%;
 }
 
 .page-contact {
@@ -246,14 +246,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
     rgba(240, 149, 100, 1) 0%,
     rgba(92, 100, 207, 1) 95%
   );
-  position: relative;
+  bottom: 0;
 }
 
 .cards {
   display: flex;
-  align-items: center;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 

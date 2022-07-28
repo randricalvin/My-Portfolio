@@ -61,16 +61,16 @@ const NavBar = () => {
         <ul className=" DESKTOP-MENU hidden space-x-8 lg:flex">
           {/* center menu navigation */}
           <li>
-          <Link to='/'><button className='font-bold hover:text-[#5C64CF]'>Home</button></Link>
+          <Link to='/'><button className='text-xl font-extrabold hover:text-[#5C64CF]'>Home</button></Link>
           </li>
           <li>
-          <Link to='/skills'><button className='font-bold hover:text-[#5C64CF]'>Skills</button></Link>
+          <Link to='/skills'><button className='text-xl font-extrabold hover:text-[#5C64CF]'>Skills</button></Link>
           </li>
           <li>
-          <Link to='/projects'><button className='font-bold hover:text-[#5C64CF]'>Projects</button></Link>
+          <Link to='/projects'><button className='text-xl font-extrabold hover:text-[#5C64CF]'>Projects</button></Link>
           </li>
           <li>
-          <Link to='/contact'><button className='font-bold hover:text-[#5C64CF]'>Contact</button></Link>
+          <Link to='/contact'><button className='text-xl font-extrabold hover:text-[#5C64CF]'>Contact</button></Link>
           </li>
         </ul>
         </section>

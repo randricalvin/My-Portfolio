@@ -13,7 +13,7 @@ import "./App.css";
 function App() {
   return (
   // create a routes to the different pages
-  <div className="">
+  <div>
   <Router>
   <CustomCursor />
   <NavBar />
