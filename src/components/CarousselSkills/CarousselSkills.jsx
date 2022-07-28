@@ -15,7 +15,8 @@ import adobeXd from '../../assets/adobeXd.svg';
 import InfiniteCarousel from 'react-leaf-carousel';
 
 const CarousselSkills = () => (
-  <InfiniteCarousel 
+  <div className='w-3/5 m-auto'>
+    <InfiniteCarousel 
     breakpoints={[
       {
         breakpoint: 500,
@@ -125,6 +126,7 @@ const CarousselSkills = () => (
       />
     </div>
   </InfiniteCarousel>
+  </div>
 );
 
 export default CarousselSkills;

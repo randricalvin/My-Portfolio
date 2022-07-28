@@ -8,8 +8,8 @@ import creativite from '../assets/softskills/creativite.svg'
 
 const SoftSKillsElement = () => {
   return (
-    <div className='soft-skills my-10'>
-      <div className='flex flex-row content-between justify-around'>
+    <div className='soft-skills w-3/5 m-auto'>
+      <div className='flex flex-row content-between justify-around items-center'>
       <div>
         <img
         alt='logoorganisation'
@@ -41,7 +41,7 @@ const SoftSKillsElement = () => {
       </h3>
       </div>
     </div>
-    <div className='flex flex-row content-between justify-around my-10'>
+    <div className='flex flex-row content-between justify-around items-center my-20'>
       <div>
         <img
         alt='logocuriosite'

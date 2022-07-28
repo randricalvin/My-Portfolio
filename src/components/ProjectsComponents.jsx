@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import projectmood from '../assets/projects/projectmood.svg'
 import logohtml from '../assets/projects/logohtml.svg'
@@ -6,19 +7,40 @@ import logoreact from '../assets/projects/logoreact.svg'
 import logojs from '../assets/projects/logojs.svg'
 import projecterror from '../assets/projects/projecterror.svg'
 import hackathon from '../assets/projects/hackathon.svg'
+import projectpimleaf from '../assets/projects/projectpimleaf.svg'
+import logotailwind from '../assets/projects/logotailwind.svg'
 
 
 
 const ProjectsComponents = () => {
   return (
-      <div className='cards mt-10 flex justify-center'>
-          {/* First card */}
-        <div className='card-one w-1/3 rounded-lg bg-gray-200 shadow-2xl'>
+      <div className='cards mt-10 flex m-auto'>
+            {/* First */}
+        <div className='card-four rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl ml-5'>
+        <div className='rounded-t-lg overflow-hidden'>
+            <img className='card-four-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projectpimleaf} alt="projet mood" />
+        </div>
+        <div className='flex flex-row justify-center py-5'>
+            <img src={logotailwind} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logojs} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logoreact} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
+        </div>
+        <div className='flex flex-row justify-center py-4'>
+            <div className='card-four-button rounded-full button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out opacity-70'>
+                <a href="">Github</a>
+            </div>
+            <div className='card-four-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out opacity-70'>
+                <a href="">Consulter</a>
+            </div>
+        </div>
+        </div>
+          {/* second card */}
+        <div className='card-one rounded-lg bg-gray-200 shadow-2xl ml-5'>
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-one-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projectmood} alt="projet mood" />
         </div>
         <div className='flex flex-row justify-center py-5'>
-            <img src={logohtml} alt="logo html" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logotailwind} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
             <img src={logocss} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logoreact} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
         </div>
@@ -31,10 +53,10 @@ const ProjectsComponents = () => {
         </div>
         </div>
         </div>
-        {/* Second card */}
-        <div className='card-two ml-5 w-1/3 rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl'>
+            {/* third card */}
+        <div className='card-two rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl ml-5'>
         <div className='rounded-t-lg overflow-hidden'>
-            <img className='card-two-image lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projecterror} alt="projet mood" />
+            <img className='card-two-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projecterror} alt="projet mood" />
         </div>
         <div className='flex flex-row justify-center py-5'>
             <img src={logohtml} alt="logo html" style={{width : '2rem', height : '2rem'}}/>
@@ -50,13 +72,13 @@ const ProjectsComponents = () => {
             </div>
         </div>
         </div>
-        {/* Third card */}
-        <div className='card-three ml-5 w-1/3 rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl'>
+        {/* four card */}
+        <div className='card-three rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl ml-5 mr-5'>
         <div className='rounded-t-lg overflow-hidden'>
-            <img className='card-three-image lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={hackathon} alt="projet mood" />
+            <img className='card-three-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={hackathon} alt="projet mood" />
         </div>
         <div className='flex flex-row justify-center py-5'>
-            <img src={logohtml} alt="logo html" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logotailwind} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
             <img src={logocss} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logoreact} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
         </div>
@@ -69,6 +91,7 @@ const ProjectsComponents = () => {
             </div>
         </div>
         </div>
+        
       </div>
     
     

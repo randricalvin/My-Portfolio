@@ -3,7 +3,7 @@ import React from 'react'
 const SoftSkillsTitle = () => {
   return (
     <div>
-        <div className="text-hard-skills ml-5">
+        <div className="text-hard-skills flex flex-col ml-20">
             <h3 className='text-xl text-[#5C64CF]'>
                 Soft
             </h3>

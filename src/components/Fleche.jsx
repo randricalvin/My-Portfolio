@@ -6,7 +6,10 @@ const Fleche = () => {
   return (
     <div className='fleche-home'>
         <Link to="/skills">
-            <img src={fleche} alt="image fleche"  />
+            <img 
+            src={fleche} 
+            alt="image fleche"
+            />
         </Link>
     </div>
   )

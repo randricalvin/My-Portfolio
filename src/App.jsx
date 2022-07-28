@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
 import CustomCursor from "./components/CustomCursor";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
     <Route path="/contact" element={<Contact />} />
   </Routes>
 </Router>
+<Footer />
 </div>
   );
 }
