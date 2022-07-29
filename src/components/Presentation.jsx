@@ -9,7 +9,7 @@ const Presentation = () => {
             </h3>
             <h1 className=''>
                 I'm <span className="text-[#5C64CF]">Calvin</span>, 
-                and I'm a <span className="text-[#5C64CF]">Full Stack Developer</span>
+                and I'm a <span className="text-[#5C64CF]">Web Developer</span>
             </h1>
         </div>
         <div className="p-presentation mt-5">

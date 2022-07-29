@@ -12,7 +12,7 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_gd5i47d', 'template_ruhgxtb', e.target, 'sxfWim9O4aQa5hsXP')
       .then((result) => {
-        toast.success(`Votre projet a été modifié.`);
+        toast.success(`Votre message a bien été envoyé.`);
         console.log(result.text);
           
       }, (error) => {
