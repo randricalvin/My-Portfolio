@@ -473,5 +473,47 @@ Note: Beware of modifying this element as it can break the animations - you shou
   justify-content: center;
 }
 
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top : 2rem;
+  width: 100vw;
+
+}
+
+.soft-skills img {
+  display: flex;
+  height: 2.5rem;
+
+}
+
+.page-skills {
+  height: 100vh;
+  background-color: #F09564;
+}
+
+.text-hard-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  margin-left: 0;
+}
+
+.text-hard-skills h3, h1 {
+  margin: auto;
+
+}
+
+.caroussel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  margin : auto;
+}
+
+
 
 }

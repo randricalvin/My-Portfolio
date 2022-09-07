@@ -16,7 +16,7 @@ const ContactForm = () => {
         console.log(result.text);
           
       }, (error) => {
-        toast.error("Un problème est survenue, veuillez réessayer.");
+        toast.error(`Un problème est survenue, veuillez réessayer.`);
         console.log(error.text);
       });
       e.target.reset();

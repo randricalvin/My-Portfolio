@@ -11,46 +11,45 @@ const NavBar = () => {
 {/* adding a burger button */}
 <div className="shadow-md">
       <nav>
-        <section className="MOBILE-MENU flex lg:hidden justify-end mr-5">
-          <div
-            className="HAMBURGER-ICON space-y-2"
-            onClick={() => setIsNavOpen((prev) => !prev)}
-          >
-            <span className="block h-0.5 w-8 animate-pulse bg-[#5C64CF]"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-[#5C64CF]"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-[#5C64CF]"></span>
-          </div>
-
+        <section className="MOBILE-MENU flex lg:hidden justify-end mr-5 ">
+          <button
+                className="relative w-10 text-[#5C64CF] bg-white rounded-sm focus:outline-none mt-5"
+                onClick={() => setIsNavOpen(!isNavOpen)}>
+                <span className="sr-only">Open main menu</span>
+                <div className="absolute block w-8 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
+                  <span
+                    aria-hidden="true"
+                    className={`block absolute h-1 w-8 bg-current transform transition duration-500 ease-in-out ${
+                      isNavOpen ? "rotate-45" : "-translate-y-1.5"
+                    }`}></span>
+                  <span
+                    aria-hidden="true"
+                    className={`block absolute  h-1 w-8 bg-current   transform transition duration-500 ease-in-out ${
+                      isNavOpen && "opacity-0"
+                    }`}></span>
+                  <span
+                    aria-hidden="true"
+                    className={`block absolute  h-1 w-8 bg-current transform  transition duration-500 ease-in-out ${
+                      isNavOpen ? "-rotate-45" : "translate-y-1.5"
+                    }`}></span>
+                </div>
+              </button>
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-            <div
-              className="absolute top-0 right-0 px-8 py-8"
-              onClick={() => setIsNavOpen(false)}
-            >
-              <svg
-                className="h-8 w-8 text-[#5C64CF]"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="18" y1="6" x2="6" y2="18"/>
-                <line x1="6" y1="6" x2="18" y2="18"/>
-              </svg>
-            </div>
             <div className="flex justify-center items-center">
-            <ul className="min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 uppercase hover:text-[#5C64CF]">
+            <ul className="min-h-[250px]"
+            // close menu burger onclick
+            onClick={() => setIsNavOpen(false)}
+            >
+              <li className="border-b border-gray-400 my-8 text-xl hover:text-[#5C64CF]">
               <Link to='/'><button className='font-bold'>Home</button></Link>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase hover:text-[#5C64CF]">
+              <li className="border-b border-gray-400 my-8 text-xl hover:text-[#5C64CF]">
               <Link to='/skills'><button className='font-bold'>Skills</button></Link>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase hover:text-[#5C64CF]">
+              <li className="border-b border-gray-400 my-8 text-xl hover:text-[#5C64CF]">
               <Link to='/projects'><button className='font-bold'>Projects</button></Link>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase hover:text-[#5C64CF]">
+              <li className="border-b border-gray-400 my-8 text-xl hover:text-[#5C64CF]">
               <Link to='/contact'><button className='font-bold'>Contact</button></Link>
               </li>
             </ul>
