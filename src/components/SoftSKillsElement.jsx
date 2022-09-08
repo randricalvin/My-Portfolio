@@ -52,8 +52,8 @@ const SoftSKillsElement = () => {
         Curiosité
       </h3>
       </div>
-      <div>
-        <img
+      <div className='flex items-center flex-col'>
+        <img 
         alt='logoforceproposition'
         src={forceproposition}
         style={{width : '5rem'}}

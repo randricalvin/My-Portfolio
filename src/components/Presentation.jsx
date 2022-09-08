@@ -14,7 +14,7 @@ const Presentation = () => {
         </div>
         <div className="p-presentation mt-5">
             <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            After 4 years working in the training industry as a marketing and communication assistant, I started a reconversion to become a web developer after a training at the Wild Code School. If you need more information, don't hesitate to contact me.
             </p>
         </div>
     </div>
