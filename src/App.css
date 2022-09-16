@@ -271,6 +271,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     width: 80%;
     margin-bottom: 4rem;
     margin-top: 4rem;
+    margin-left: 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
@@ -291,6 +292,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .card-two {
     width: 80%;
     margin-bottom: 4rem;
+    margin-left: 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
@@ -331,6 +333,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .card-four {
   width: 80%;
+  margin-left: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

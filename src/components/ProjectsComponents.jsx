@@ -17,7 +17,7 @@ const ProjectsComponents = () => {
   return (
       <div className='cards mt-10 flex m-auto'>
             {/* First */}
-        <div className='card-four rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl mt-5 shadow-lg'>
+        <div className='card-four rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl ml-5 mt-5 shadow-lg'>
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-four-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projectpimleaf} alt="projet mood" />
         </div>
@@ -36,7 +36,7 @@ const ProjectsComponents = () => {
         </div>
         </div>
           {/* second card */}
-        <div className='card-one rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl mt-5 shadow-lg'>
+        <div className='card-one rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl ml-5 mt-5 shadow-lg'>
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-one-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projectmood} alt="projet mood" />
         </div>
@@ -55,7 +55,7 @@ const ProjectsComponents = () => {
         </div>
         </div>
             {/* third card */}
-        <div className='card-two rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl mt-5 shadow-lg'>
+        <div className='card-two rounded-lg bg-gray-200 transition duration-300 ease-in-out drop-shadow-2xl ml-5 mt-5 shadow-lg'>
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-two-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projecterror} alt="projet mood" />
         </div>
