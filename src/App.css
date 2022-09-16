@@ -489,7 +489,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .page-skills {
-  height: 100vh;
+  height: 100%;
   background-color: #F09564;
 }
 
