@@ -27,8 +27,8 @@ const ProjectsComponents = () => {
             <img src={logojs} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
         </div>
         <div className='flex flex-row justify-center py-4'>
-            <div className='card-four-button rounded-full button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out opacity-70'>
-                <a href="">Github</a>
+            <div className='card-four-button rounded-full button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
+                <a href="https://github.com/randricalvin/2022-03-JS-Remote-404-Pim_Leaf">Github</a>
             </div>
             <div className='card-four-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out opacity-70'>
                 <a href="">Consulter</a>
@@ -87,8 +87,8 @@ const ProjectsComponents = () => {
             <div className='card-three-button rounded-full button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
                 <a href="https://github.com/randricalvin/Hackathon_Save_Ourselves">Github</a>
             </div>
-            <div className='card-three-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
-                <a href="https://mood-une-application-de-choix.netlify.app/">Consulter</a>
+            <div className='card-three-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out opacity-70'>
+                <a href="">Consulter</a>
             </div>
         </div>
         </div>
