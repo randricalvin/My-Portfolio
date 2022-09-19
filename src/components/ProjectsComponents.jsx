@@ -10,6 +10,8 @@ import hackathon from '../assets/projects/hackathon.svg'
 import projectpimleaf from '../assets/projects/projectpimleaf.svg'
 import logotailwind from '../assets/projects/logotailwind.svg'
 import hackathon2 from '../assets/projects/hackathon2.svg'
+import logonode from '../assets/projects/logonode.svg'
+import logomysql from '../assets/projects/logomysql.svg'
 
 
 
@@ -21,10 +23,12 @@ const ProjectsComponents = () => {
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-four-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projectpimleaf} alt="projet mood" />
         </div>
-        <div className='flex flex-row justify-center py-5'>
+        <div className='flex flex-row justify-center gap-3 py-5'>
             <img src={logotailwind} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
             <img src={logoreact} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logojs} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logonode} alt="logo node" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logomysql} alt="logo mysql" style={{width : '2rem', height : '2rem'}}/>
         </div>
         <div className='flex flex-row justify-center py-4'>
             <div className='card-four-button rounded-full button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
@@ -40,7 +44,7 @@ const ProjectsComponents = () => {
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-one-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projectmood} alt="projet mood" />
         </div>
-        <div className='flex flex-row justify-center py-5'>
+        <div className='flex flex-row justify-center gap-3 py-5'>
             <img src={logotailwind} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
             <img src={logoreact} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logojs} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
@@ -59,7 +63,7 @@ const ProjectsComponents = () => {
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-two-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={projecterror} alt="projet mood" />
         </div>
-        <div className='flex flex-row justify-center py-5'>
+        <div className='flex flex-row justify-center gap-3 py-5'>
             <img src={logohtml} alt="logo html" style={{width : '2rem', height : '2rem'}}/>
             <img src={logocss} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logojs} alt="logo javascript" style={{width : '2rem', height : '2rem'}}/>
@@ -78,7 +82,7 @@ const ProjectsComponents = () => {
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-three-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={hackathon} alt="projet mood" />
         </div>
-        <div className='flex flex-row justify-center py-5'>
+        <div className='flex flex-row justify-center gap-3 py-5'>
             <img src={logotailwind} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
             <img src={logoreact} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logojs} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
@@ -98,10 +102,12 @@ const ProjectsComponents = () => {
         <div className='rounded-t-lg overflow-hidden'>
             <img className='card-three-image lg:h-60 md:h-36 w-full object-cover object-center scale-110 transition-all duration-200 hover:scale-100' src={hackathon2} alt="projet mood" />
         </div>
-        <div className='flex flex-row justify-center py-5'>
+        <div className='flex flex-row justify-center gap-3 py-5'>
             <img src={logocss} alt="logo tailwind" style={{width : '2rem', height : '2rem'}}/>
             <img src={logoreact} alt="logo css" style={{width : '2rem', height : '2rem'}}/>
             <img src={logojs} alt="logo react" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logonode} alt="logo node" style={{width : '2rem', height : '2rem'}}/>
+            <img src={logomysql} alt="logo mysql" style={{width : '2rem', height : '2rem'}}/>
         </div>
         <div className='flex flex-row justify-center py-4'>
             <div className='card-three-button rounded-full button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
