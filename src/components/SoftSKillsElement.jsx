@@ -27,7 +27,7 @@ const SoftSKillsElement = () => {
         style={{width : '5rem'}}
       />
       <h3 className='text-[#F5F4F2]'>
-        Autonomie
+        Independence
       </h3>
       </div>
       <div>
@@ -37,7 +37,7 @@ const SoftSKillsElement = () => {
         style={{width : '5rem'}}
       />
       <h3 className='text-[#F5F4F2]'>
-        Travail en équipe
+        Teamwork
       </h3>
       </div>
     </div>
@@ -49,7 +49,7 @@ const SoftSKillsElement = () => {
         style={{width : '5rem'}}
       />
       <h3 className='text-[#F5F4F2]'>
-        Curiosité
+        Curiosity
       </h3>
       </div>
       <div className='flex items-center flex-col'>
@@ -59,7 +59,7 @@ const SoftSKillsElement = () => {
         style={{width : '5rem'}}
       />
       <h3 className='text-[#F5F4F2]'>
-        Force de proposition
+        Proactive
       </h3>
       </div>
       <div>
@@ -69,7 +69,7 @@ const SoftSKillsElement = () => {
         style={{width : '5rem'}}
       />
       <h3 className='text-[#F5F4F2] text-center'>
-        Créativité
+        Creativity
       </h3>
       </div>
       
