@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <>
 {/* adding a burger button */}
-<div className="shadow-md">
+<div className="shadow-md py-6">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden justify-end mr-5 ">
           <button

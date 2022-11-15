@@ -103,19 +103,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 
 /* config texte presentation home page */
-.navbar {
-  height: 10vh;
-}
 .text-presentation {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 3rem;
   width: 25rem;
+  text-align: left;
 }
 
 .p-presentation {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 1.10rem;
   width: 30rem;
+  text-align: left;
 }
 
 /* config button contact */
@@ -170,6 +169,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.5rem;
   width: 25rem;
   padding-top: 4rem;
+  text-align: left;
 
 }
 
@@ -190,15 +190,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .page-home {
   display: flex;
-  align-items: center;
-  /* background: rgb(240,149,100);
-  background: linear-gradient(90deg, rgba(240,149,100,1) 0%, rgba(92,100,207,1) 95%); */
-  height: 100vh;
-  overflow: hidden;
   justify-content: space-around;
   align-items: center;
-  display: flex;
-
+  height: 100vh;
 }
 
 .page-skills {
@@ -212,7 +206,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .page-contact {
   background-color: #F09564;
-  height: 90vh;
+  height: 100vh;
 }
 
 
@@ -221,6 +215,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.5rem;
   width: 25rem;
   padding-top: 4rem;
+  text-align: left;
 
 }
 
@@ -239,15 +234,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .footer {
-  height: 10vh;
-  background: rgb(240, 149, 100);
   background: linear-gradient(
     90deg,
     rgba(240, 149, 100, 1) 0%,
     rgba(92, 100, 207, 1) 95%
   );
+  position: relative;
   bottom: 0;
+  width: 100%;
 }
+
 
 .cards {
   display: flex;
@@ -255,6 +251,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   align-items: center;
   flex-wrap: wrap;
 
+}
+
+.wave {
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
 }
 
 
@@ -492,8 +494,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .page-skills {
-  height: 100%;
   background-color: #F09564;
+  height: 100%;
 }
 
 .text-hard-skills {

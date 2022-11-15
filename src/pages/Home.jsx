@@ -2,18 +2,23 @@ import React from 'react'
 import ButtonLetsTalk from '../components/ButtonLetsTalk'
 import Presentation from '../components/Presentation'
 import HomeAnimation from '../components/HomeAnimation'
+import wave from '../assets/wave.svg'
 
 const Home = () => {
   return (
-    <div className='page-home flex justify-between'>
-      <div>
-      <Presentation />
-      <ButtonLetsTalk />
+    <div className='container-home'>
+        <div className='page-home'>
+          <div>
+            <Presentation />
+            <ButtonLetsTalk />
+          </div>
+          <div>
+            <HomeAnimation />
+          </div>
       </div>
-      <div>
-      <HomeAnimation />
-      </div>
+    <img src={wave} alt='wave' className='wave' />
     </div>
+    
   )
 }
 

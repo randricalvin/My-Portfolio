@@ -11,8 +11,8 @@ const Skills = () => {
       <div className='mt-10'>
         <CarousselSkills />
       </div>
-      <SoftSkillsTitle />
-      <SoftSKillsElement />
+        <SoftSkillsTitle />    
+        <SoftSKillsElement />
     </div>
   )
 }
