@@ -38,7 +38,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/AppChat">Github</a>
             </div>
             <div className='card-four-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
-                <a href="https://www.chatchatgo.fr/">Consulter</a>
+                <a href="https://www.chatchatgo.fr/">Visit</a>
             </div>
         </div>
         </div>
@@ -58,7 +58,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/My-CryptoData">Github</a>
             </div>
             <div className='card-four-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
-                <a href="https://mycryptodata.netlify.app/">Consulter</a>
+                <a href="https://mycryptodata.netlify.app/">Visit</a>
             </div>
         </div>
         </div>
@@ -80,7 +80,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/2022-03-JS-Remote-404-Pim_Leaf">Github</a>
             </div>
             <div className='card-four-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out pointer-events-none opacity-70'>
-                <a href="">Consulter</a>
+                <a href="">Visit</a>
             </div>
         </div>
         </div>
@@ -100,7 +100,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/Projet_2_React_Mood_WCS">Github</a>
         </div>
         <div className='card-one-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
-                <a href="https://mood-une-application-de-choix.netlify.app/">Consulter</a>
+                <a href="https://mood-une-application-de-choix.netlify.app/">Visit</a>
         </div>
         </div>
         </div>
@@ -120,7 +120,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/Pojet-1-Error404-WCS">Github</a>
             </div>
             <div className='card-two-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out'>
-                <a href="https://kevinlavigne.github.io/projet1-error404/accueil.html">Consulter</a>
+                <a href="https://kevinlavigne.github.io/projet1-error404/accueil.html">Visit</a>
             </div>
         </div>
         </div>
@@ -140,7 +140,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/Hackathon_Save_Ourselves">Github</a>
             </div>
             <div className='card-three-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out pointer-events-none opacity-70'>
-                <a href="">Consulter</a>
+                <a href="">Visit</a>
             </div>
         </div>
         </div>
@@ -162,7 +162,7 @@ const ProjectsComponents = () => {
                 <a href="https://github.com/randricalvin/Hackathon2_Karaout404">Github</a>
             </div>
             <div className='card-three-button rounded-full ml-5 button-project bg-[#5C64CF] text-[#F5F4F2] transition duration-300 ease-in-out pointer-events-none opacity-70'>
-                <a href="">Consulter</a>
+                <a href="">Visit</a>
             </div>
         </div>
         </div>
